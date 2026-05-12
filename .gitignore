@@ -1,0 +1,14 @@
+# Local browser verification output
+.browser-profile/
+preview-*.png
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Optional dependency/build folders if the project is opened with a toolchain later
+node_modules/
+dist/
+.netlify/
+.vercel/

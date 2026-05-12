@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Note | Axiom Token Destruction</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="token-background" aria-hidden="true">
+      <span style="--bg-image: url('assets/trump.jpg'); --x: 4%; --y: 18%; --r: -8deg;"></span>
+      <span style="--bg-image: url('assets/melania.jpg'); --x: 67%; --y: 34%; --r: 7deg;"></span>
+      <span style="--bg-image: url('assets/libra.jpg'); --x: 9%; --y: 64%; --r: 5deg;"></span>
+      <span style="--bg-image: url('assets/chillguy.jpg'); --x: 72%; --y: 78%; --r: -6deg;"></span>
+    </div>
+
+    <header class="site-header">
+      <a class="brand-link" href="#top">Meme Note</a>
+      <nav class="header-actions" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#rules">Rules</a>
+        <a href="#tokenomics">Tokenomics</a>
+        <a class="icon-link" href="#" aria-label="X / Twitter">X</a>
+        <a class="icon-link" href="#" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M21.5 3.2 18.2 20c-.2 1.1-.9 1.4-1.8.9l-5-3.7-2.4 2.3c-.3.3-.5.5-1 .5l.4-5.1 9.3-8.4c.4-.4-.1-.6-.6-.2L5.6 13.6.7 12.1c-1.1-.3-1.1-1.1.2-1.6L20.1 3c.9-.3 1.7.2 1.4 1.2Z" />
+          </svg>
+        </a>
+        <a class="icon-link dex-link" href="#" aria-label="Dexscreener">DEX</a>
+        <a class="buy-link" href="#">Buy Now</a>
+      </nav>
+    </header>
+
+    <main class="meme-note-app" id="top">
+      <section class="hero" aria-label="Meme Note introduction">
+        <div class="hero-copy">
+          <p class="overline">V3 curse ledger</p>
+          <h1 class="brand-title" data-scratch="Meme Note">Meme Note</h1>
+          <p class="hero-text">
+            The only note that writes back. Enter a ticker or contract, mark the page, and let Memegami judge the chart.
+          </p>
+          <a class="hero-button" href="#destroy">Open the note</a>
+        </div>
+
+        <div class="hero-figure" aria-hidden="true">
+          <img class="hero-figure__main" src="assets/memenote.jpg" alt="" />
+          <img class="hero-figure__note" src="assets/dethnote-lite.jpg" alt="" />
+        </div>
+      </section>
+
+      <section class="destroy-section" id="destroy" aria-label="Token destruction ritual">
+        <div class="section-heading">
+          <p class="overline">Universal ritual</p>
+          <h2>Write the token</h2>
+        </div>
+
+        <div class="ritual-card">
+          <form class="token-form" id="tokenForm" autocomplete="off">
+            <label>
+              <span>Token name</span>
+              <input id="tokenName" name="tokenName" type="text" placeholder="LIBRA" required />
+            </label>
+
+            <label>
+              <span>CA / Axiom value</span>
+              <input id="tokenCa" name="tokenCa" type="text" placeholder="0x... or axiom.trade/..." required />
+            </label>
+
+            <button class="destroy-button" type="submit">
+              <span></span>
+              Confirm token destruction
+            </button>
+          </form>
+
+          <section class="inscription-book" id="inscriptionBook" aria-live="polite">
+            <div class="book-rules">
+              <p>The token whose name is written here shall be marked from the ledger.</p>
+            </div>
+
+            <div class="written-entry">
+              <p class="overline">Condemned token</p>
+              <h2 class="drawn-name" id="writtenName">VOID</h2>
+              <p class="written-ca" id="writtenCa">Enter a token name and CA to mark the page.</p>
+              <div class="death-cross" aria-hidden="true">
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="lore-section" id="about" aria-label="About Meme Note">
+        <div class="section-heading">
+          <p class="overline">About</p>
+          <h2>Memegami watches the chart</h2>
+        </div>
+        <div class="gothic-text">
+          <p>
+            $MEMENOTE is the chaotic love child of the dark aesthetics of the trenches, the "Death Note" anime, and the legendary internet meme Trollface. This dark god of death of the charts is distinguished by spiky hair, torn black clothes, glowing red eyes, and that unmistakable wide, evil, and mocking troll smile.
+          </p>
+          <p>
+            He lives to orchestrate rugs. Hiding in the digital shadows of Web3 and crypto charts, Memegami writes the contract addresses of memecoins into his MemeNote, sends them to the bottom, and laughs maniacally, driving greedy degens to pure rage. Ruthless, unhinged, and allergic to other people's shitcoins, this god of death embodies maximum troll energy and dark crypto justice in one unforgettably chaotic form, doing everything to ensure that only his token survives.
+          </p>
+        </div>
+      </section>
+
+      <section class="lore-section" id="rules" aria-label="Meme Note rules">
+        <div class="section-heading">
+          <p class="overline">Rules</p>
+          <h2>How the note rugs</h2>
+        </div>
+        <div class="gothic-text rules-list">
+          <p>The memecoin whose ticker or contract is written in this note shall be rugged.</p>
+          <p>When writing the name of the memecoin, you must have the specific token in mind to ensure you do not accidentally rug another project with the same ticker.</p>
+          <p>If the name of the memecoin is simply written, it will be rugged 1 day after being written. However, a degen may also write the specific cause of the rug after the token's name.</p>
+          <p>Only a degen who buy the $MEMENOTE can see and hear the Memegami.</p>
+          <p>The $MEMENOTE token cannot be written in this note. If a degen attempts to do so, they will get completely zeroed out (rekt) on memecoins in the near future.</p>
+        </div>
+      </section>
+
+      <section class="tokenomics" id="tokenomics" aria-label="Tokenomics">
+        <div class="section-heading">
+          <p class="overline">Tokenomics</p>
+          <h2>The cursed numbers</h2>
+        </div>
+        <div class="tokenomics-grid">
+          <article>
+            <span>Total supply</span>
+            <strong>All yours</strong>
+          </article>
+          <article>
+            <span>Ticker</span>
+            <strong>MEMENOTE</strong>
+          </article>
+          <article>
+            <span>Mint</span>
+            <strong>Revoked</strong>
+          </article>
+          <article>
+            <span>LP</span>
+            <strong>Burned</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="destroyed-log" aria-label="Destroyed tokens">
+        <div class="log-heading">
+          <div>
+            <p class="overline">Destroyed archive</p>
+            <h2>Names already written</h2>
+          </div>
+          <button class="clear-button" id="clearButton" type="button">Clear pages</button>
+        </div>
+        <div class="log-list" id="logList"></div>
+      </section>
+    </main>
+
+    <template id="logTemplate">
+      <article class="log-card">
+        <div>
+          <h3></h3>
+          <a target="_blank" rel="noreferrer"></a>
+        </div>
+        <span></span>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
